@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:web="http://java.sun.com/xml/ns/javaee"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+	<display-name>Sample Web Application Using Servlet</display-name>
+
+	<servlet>
+		<servlet-name>cadastrarcurriculo</servlet-name>
+		<servlet-class>com.trabalhoparadigmasp2.CadastrarCurriculo</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cadastrarcurriculo</servlet-name>
+		<url-pattern>/cadastrarcurriculo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>cadastrarvaga</servlet-name>
+		<servlet-class>com.trabalhoparadigmasp2.CadastrarVaga</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cadastrarvaga</servlet-name>
+		<url-pattern>/cadastrarvaga</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>cadastrarplanodepessoal</servlet-name>
+		<servlet-class>com.trabalhoparadigmasp2.CadastrarPlanoDePessoal</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cadastrarplanodepessoal</servlet-name>
+		<url-pattern>/cadastrarplanodepessoal</url-pattern>
+	</servlet-mapping>
+
+</web-app>

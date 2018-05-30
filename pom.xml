@@ -53,7 +53,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>SampleWebApp</finalName>
+		<finalName>paradigmasp2</finalName>
 
 		<plugins>
 

@@ -30,6 +30,8 @@
 	</main>
 
 	<c:forEach items="${result}" var="result">
+		${result.get("nome")}<br>
+
 		idcurriculo: ${result.get("idcurriculo")}  <br>
 		nome: ${result.get("nome")}  <br>
 		bday: ${result.get("bday")}  <br>

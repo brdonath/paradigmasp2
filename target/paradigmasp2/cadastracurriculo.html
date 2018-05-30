@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trabalho Paradigmas P2</title>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header class="blue darken-2 center-align">
+		<a href="index.html">Trabalho Paradigmas P2</a>
+	</header>
+	<main class="center-align">
+ <div class="row">
+    <form  method="post" id="novocv" class="col s12" action="/cadastrarcurriculo">
+ 	<h4>Informações pessoais</h4>
+    	<div class="row">
+    		<div class="input-field col s6">
+    			<input id="nome" name="nome" type="text" required class="validate">
+    			<label for="nome">Nome</label>
+    		</div>
+    	</div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input type="date" name="bday" required class="validate">
+                <label for="nascimento">Data de Nascimento</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+            <input type="text" name="cpf" maxlength="11" onblur="return verificarCPF(this.value)" required class="validate" id="validacpf">
+            <label for="cpf">CPF (sem pontos nem hifen)</label>
+            </div>
+    	</div>
+    	<div class="row">
+    		<div class="input-field col s6">
+                <select name="ecivil">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="1">Casado</option>
+                    <option value="2">Separado</option>
+                    <option value="3">Solteiro</option>
+                    <option value="4">Viúvo</option>
+                </select>
+    			<label>Estado Civil</label>
+    		</div>
+    	</div>
+        <div class="row">
+            <div class="input-field col s1">
+                <p>
+                    <label>
+                        <input type="radio" name="genero" value="male">
+                        <span>Homem</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="genero" value="female">
+                        <span>Mulher</span>
+                    </label>
+                </p>
+                <p>  
+                    <label>
+                        <input type="radio" name="genero" value="other">
+                        <span>Outro</span>
+                    </label>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+    		<div class="input-field col s6">
+    			<input id="email" name="email" type="email" required class="validate">
+    			<label for="email">Email</label>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="input-field col s6">
+    			<input name="tel" type="tel" pattern="^[0-9-+s()]*$" required class="validate">
+    			<label for="tel">Telefone</label>
+    		</div>
+    	</div>
+        <h4>Qualificações</h4>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="formacao" name="formacao" type="text" required class="validate">
+                <label for="formacao">Formação Acadêmica</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="experiencia1" name="experiencia1" type="text" required class="validate">
+                <label for="experiencia1">Experiência 1</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="experiencia2" name="experiencia2" type="text" class="validate">
+                <label for="experiencia2">Experiência 2 (se aplicado)</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="experiencia3" name="experiencia3" type="text" class="validate">
+                <label for="experiencia3">Experiência 3 (se aplicado)</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="idioma1" name="idioma1" type="text" required class="validate">
+                <label for="idioma1">Idioma 1</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="idioma2" name="idioma2" type="text" class="validate">
+                <label for="idioma2">Idioma 2 (se aplicado)</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="pretensaosalarial" name="pretensaosalarial" type="text" required class="validate">
+                <label for="pretensaosalarial">Pretensão Salarial</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <textarea id="maisinfo" name="maisinfo" class="materialize-textarea"></textarea>
+                <label for="maisinfo">Informaçoes adicionais</label>
+            </div>
+        </div>
+    </form>
+    <button type="submit" form="novocv" value="Submit" class="orange darken-3 btn">Enviar</button>
+
+    <a class="orange darken-3 btn btnvoltar" href="index.html">Voltar</a>
+  </div>
+	</main>
+	<footer class="page-footer blue darken-2">
+		<div class="footer-copyright">
+			<div class="container">
+				Criadores: Ana, Edson, Jean, Juliana, Wilson
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
