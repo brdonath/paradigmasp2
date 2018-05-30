@@ -7,11 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40434684-9cfd-4588-8dd8-fd21533cd6de" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarCurriculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarCurriculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarPlanoDePessoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarPlanoDePessoal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarVaga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarVaga.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/curriculos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/curriculos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cadastracurriculo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cadastracurriculo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cadastravaga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cadastravaga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/plano.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/plano.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trabalhoparadigmasp2/CadastrarCurriculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trabalhoparadigmasp2/CadastrarCurriculo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trabalhoparadigmasp2/CadastrarPlanoDePessoal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trabalhoparadigmasp2/CadastrarPlanoDePessoal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trabalhoparadigmasp2/CadastrarVaga.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trabalhoparadigmasp2/CadastrarVaga.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trabalhoparadigmasp2/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trabalhoparadigmasp2/DBConnection.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +31,44 @@
       <file leaf-file-name="CadastrarCurriculo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarCurriculo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="153">
+              <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastracurriculo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/cadastracurriculo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="81" lean-forward="true" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -36,12 +77,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarPlanoDePessoal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="curriculos.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="curriculos.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/curriculos.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -83,6 +124,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>stmt</find>
+      <find>SampleWebApp</find>
+      <find>/cadas</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,6 +139,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarPlanoDePessoal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarCurriculo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/curriculos.jsp" />
+        <option value="$PROJECT_DIR$/bin/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
       </list>
     </option>
   </component>
@@ -111,6 +157,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -333,12 +386,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527691448635</updated>
-      <workItem from="1527691455634" duration="906000" />
+      <workItem from="1527691455634" duration="2310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="906000" />
+    <option name="totallyTimeSpent" value="2310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -362,14 +415,14 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42079207" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42079207" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Web" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,6 +437,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/curriculos.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -401,24 +461,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarCurriculo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarPlanoDePessoal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/curriculos.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trabalhoparadigmasp2/CadastrarCurriculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/cadastracurriculo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="81" lean-forward="true" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
         </state>
       </provider>
     </entry>
